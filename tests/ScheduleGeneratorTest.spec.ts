@@ -1,12 +1,12 @@
-import ScheduleGenerator from "../src/schedule/ScheduleGenerator";
-import Frequency from "../src/builders/frequency/Frequency";
-import FrequencyBuilder from "../src/builders/frequency/FrequencyBuilder";
-import Weekdays from "../src/builders/frequency/Weekdays";
-import ScheduleOptionBuilder from "../src/schedule/ScheduleOptionBuilder";
-import ISchedule from "../src/schedule/ISchedule";
-import IScheduleOption from "../src/schedule/IScheduleOption";
-import ScheduleEvent from "../src/schedule/ScheduleEvent";
-import NaturalDate from "../src/date/NaturalDate";
+import ScheduleGenerator from "../lib/schedule/ScheduleGenerator";
+import Frequency from "../lib/builders/frequency/Frequency";
+import FrequencyBuilder from "../lib/builders/frequency/FrequencyBuilder";
+import Weekdays from "../lib/builders/frequency/Weekdays";
+import ScheduleOptionBuilder from "../lib/schedule/ScheduleOptionBuilder";
+import ISchedule from "../lib/schedule/ISchedule";
+import IScheduleOption from "../lib/schedule/IScheduleOption";
+import ScheduleEvent from "../lib/schedule/ScheduleEvent";
+import NaturalDate from "../lib/date/NaturalDate";
 import "jest-extended";
 
 test("Test the start date after the end date", () => {

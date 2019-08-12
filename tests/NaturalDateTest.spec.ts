@@ -1,5 +1,5 @@
 import "jest-extended";
-import NaturalDate from "../src/date/NaturalDate";
+import NaturalDate from "../lib/date/NaturalDate";
 
 test("Construct simple date", () => {
   const date = new NaturalDate(2019, 1, 1);

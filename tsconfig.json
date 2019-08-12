@@ -3,14 +3,13 @@
     "lib": ["es2019"],
     "module": "commonjs",
     "noImplicitReturns": true,
-    "outDir": "lib",
+    "outDir": "dist",
     "sourceMap": true,
     "target": "es6"
   },
   "compileOnSave": true,
-  "include": [
-    "src"
-  ],
+  "include": ["./lib/**/*.tsx", "./lib/**/*.ts"],
+  "files": ["./index.ts"],
   "exclude": [
     "node_modules"
   ]
