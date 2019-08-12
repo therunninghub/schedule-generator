@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+lib
+coverage
+
+# logs
+*.log
+
+# Visual Studio Code Files
+/.vscode/
+/.idea/

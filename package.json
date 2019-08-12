@@ -1,0 +1,32 @@
+{
+  "name": "@therunninghub/schedule-generator",
+  "version": "0.0.1",
+  "description": "Schedule Generator which is used by TRH platform",
+  "main": "lib/index.js",
+  "author": "Le Minh Tri <ansidev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "rimraf lib && tsc",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint-test": "tslint --fix ./tests/*.ts"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.17"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-extended": "^0.11.2",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
