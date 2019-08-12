@@ -1,6 +1,6 @@
 {
   "name": "@therunninghub/schedule-generator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Schedule Generator which is used by TRH platform",
   "main": "lib/index.js",
   "author": "Le Minh Tri <ansidev@gmail.com>",
